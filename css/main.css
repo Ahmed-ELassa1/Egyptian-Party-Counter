@@ -1,0 +1,174 @@
+a {
+    text-decoration: none;
+}
+
+:root {
+    --main-color: rgba(214, 46, 51, 0.6);
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#navOuter {
+    width: 300px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    transform: translatex(-80%);
+
+}
+
+#navInner {
+    width: 80%;
+    height: 100%;
+    text-align: left;
+    background-color: #414658;
+    position: fixed;
+    padding: 35px 18px;
+
+}
+
+
+#navIcon {
+    width: 15%;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transform: translatey(50%);
+    cursor: pointer;
+}
+
+#closeNav {
+    position: absolute;
+    right: 15%;
+    cursor: pointer;
+}
+
+.nav-link {
+    transition: all .5s;
+    color: white;
+    font-size: 24px;
+    margin: 40px 20px;
+    letter-spacing: 1px;
+
+}
+
+.nav-link:hover {
+    color: rgba(214, 46, 51, 0.4);
+}
+
+#navOuter i span {
+    font-size: 30px;
+    font-weight: 100;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-left: 15px;
+}
+
+
+#home {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/events-heavenly-header.jpg);
+    background-size: cover;
+}
+
+.home-overly {
+    background-color: rgba(233, 55, 55, 0.55);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.home-overly p {
+    font-size: 14px;
+}
+
+.header {
+    background-color: var(--main-color);
+    cursor: pointer;
+}
+.singer p {
+    display: none;
+}
+
+.singer p {
+    background-color: #ccc;
+    color: #333;
+    font-size: 15px;
+}
+
+#duration {
+    background-image: url(../img/invitation-2508607__340.jpg);
+    background-size: 100% 100%;    
+    display: flex;
+    align-content: center;
+    background-position: center right;
+    width: 100%;
+    height: 50vh;
+
+
+}
+
+.duration-overly {
+    background-color: rgba(233, 55, 55, 0.55);
+    width: 100%;
+    height: 100%;
+    padding: 30px 0;
+
+
+}
+#durationContent{
+    box-sizing: border-box;
+    padding: 50px 10px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.durationList {
+    width: 23%;
+    border: 1px solid white;
+    padding: 60px 0;
+    height: 70%;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+#contact h2,
+#contact h4 {
+    color: #777;
+}
+.contactIcons i {
+    color: #555;
+    padding: 12px 15px;
+    border: 1px solid #999;
+    transition: all .5s;
+    
+}
+.contactIcons i:hover {
+    color: #fff;
+    background-color: #D62E33;
+    border: 1px solid #D62E33;
+}
+form input {
+    height: 45px;
+}
+::placeholder {
+   color: #999 !important;
+   font-size: 18px;
+}
+.formBtn{
+    padding: 10px 20px;
+    background-color: #D62E33;
+    color: #fff;
+    border-radius: 0;
+    font-size: 14px;
+}
